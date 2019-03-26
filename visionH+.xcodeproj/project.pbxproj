@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7709CFD3224A0C59002DC9D7 /* sideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7709CFD2224A0C59002DC9D7 /* sideViewController.swift */; };
 		7731610F2249484000D7871F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731610E2249484000D7871F /* AppDelegate.swift */; };
 		773161142249484000D7871F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773161122249484000D7871F /* Main.storyboard */; };
 		773161162249484200D7871F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773161152249484200D7871F /* Assets.xcassets */; };
 		773161192249484200D7871F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773161172249484200D7871F /* LaunchScreen.storyboard */; };
 		773161212249487500D7871F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 773161202249487500D7871F /* GoogleService-Info.plist */; };
 		773161282249622C00D7871F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773161272249622C00D7871F /* LoginViewController.swift */; };
-		7731612A2249725900D7871F /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773161292249725900D7871F /* PatientViewController.swift */; };
 		E247AA3BF7C7628BE3628362 /* Pods_visionH_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63C94B4DF916482DF1F120A /* Pods_visionH_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		424F2B6502B7A6B761932DBE /* Pods-visionH+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visionH+.debug.xcconfig"; path = "Target Support Files/Pods-visionH+/Pods-visionH+.debug.xcconfig"; sourceTree = "<group>"; };
 		6620DA2EFDCF115BF800A820 /* Pods-visionH+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visionH+.release.xcconfig"; path = "Target Support Files/Pods-visionH+/Pods-visionH+.release.xcconfig"; sourceTree = "<group>"; };
+		7709CFD2224A0C59002DC9D7 /* sideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideViewController.swift; sourceTree = "<group>"; };
 		7731610B2249484000D7871F /* visionH+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "visionH+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7731610E2249484000D7871F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		773161132249484000D7871F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		7731611A2249484200D7871F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		773161202249487500D7871F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		773161272249622C00D7871F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		773161292249725900D7871F /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
 		D63C94B4DF916482DF1F120A /* Pods_visionH_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_visionH_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				773161272249622C00D7871F /* LoginViewController.swift */,
-				773161292249725900D7871F /* PatientViewController.swift */,
+				7709CFD2224A0C59002DC9D7 /* sideViewController.swift */,
 				7731610E2249484000D7871F /* AppDelegate.swift */,
 			);
 			path = Contollers;
@@ -144,6 +144,7 @@
 				TargetAttributes = {
 					7731610A2249484000D7871F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -239,7 +240,7 @@
 			files = (
 				773161282249622C00D7871F /* LoginViewController.swift in Sources */,
 				7731610F2249484000D7871F /* AppDelegate.swift in Sources */,
-				7731612A2249725900D7871F /* PatientViewController.swift in Sources */,
+				7709CFD3224A0C59002DC9D7 /* sideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +387,7 @@
 			baseConfigurationReference = 424F2B6502B7A6B761932DBE /* Pods-visionH+.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTXX84TV93;
 				INFOPLIST_FILE = "visionH+/Info.plist";
@@ -395,6 +397,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "in.devangpatel.visionH-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -405,6 +408,7 @@
 			baseConfigurationReference = 6620DA2EFDCF115BF800A820 /* Pods-visionH+.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTXX84TV93;
 				INFOPLIST_FILE = "visionH+/Info.plist";

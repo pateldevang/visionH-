@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
                 self.present(alert, animated: true)
                 return
             }
-            let homeView = self.storyboard?.instantiateViewController(withIdentifier: "PatientViewController") as! PatientViewController
+            let homeView = self.storyboard?.instantiateViewController(withIdentifier: "hello") as! UINavigationController
             self.present(homeView, animated: true, completion: nil)
             print("Success!")
             
