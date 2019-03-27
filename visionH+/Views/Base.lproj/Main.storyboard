@@ -555,8 +555,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ygT-j4-nQS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rendew" translatesAutoresizingMaskIntoConstraints="NO" id="ygT-j4-nQS">
+                                <rect key="frame" x="12" y="110" width="351" height="420"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -569,7 +569,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PT1-RF-OnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3089" y="-710"/>
+            <point key="canvasLocation" x="2879" y="201"/>
         </scene>
         <!--Pop View Controller-->
         <scene sceneID="IjD-VZ-A6V">
@@ -1239,18 +1239,6 @@
                                 <rect key="frame" x="28" y="499" width="66" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heart Rate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYI-6o-sqD">
-                                <rect key="frame" x="20" y="131" width="97" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.90588235294117647" green="0.0039215686274509803" blue="0.67450980392156867" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blood Pressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joZ-1h-bOO">
                                 <rect key="frame" x="13" y="242" width="139" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1314,7 +1302,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="108/68" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdL-8H-37k">
-                                <rect key="frame" x="242" y="173" width="114" height="39"/>
+                                <rect key="frame" x="227" y="173" width="129" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="1" green="0.69410232839999997" blue="0.0" alpha="0.78836686639999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1327,8 +1315,8 @@
                                 <color key="textColor" red="1" green="0.69410232839999997" blue="0.0" alpha="0.78836686639999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umY-nw-tKR">
-                                <rect key="frame" x="290" y="286" width="43" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="umY-nw-tKR">
+                                <rect key="frame" x="287" y="286" width="43" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="0.6247065987914191" green="1" blue="0.0093054473678313432" alpha="0.78836686639999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1341,7 +1329,7 @@
                                 <color key="textColor" red="0.6247065987914191" green="1" blue="0.0093054473678313432" alpha="0.78836686639999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQh-6q-s6T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="xQh-6q-s6T">
                                 <rect key="frame" x="278" y="405" width="37" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
@@ -1355,7 +1343,7 @@
                                 <color key="textColor" red="0.25882352939999997" green="0.70196078429999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="98.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEb-2c-4im">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="98.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="sEb-2c-4im">
                                 <rect key="frame" x="278" y="508" width="72" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
@@ -1383,6 +1371,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="Stop:" destination="vk4-QX-glC" eventType="touchUpInside" id="Edd-xE-iqK"/>
                                     <segue destination="EN3-dg-lzN" kind="show" id="19d-nD-OnG"/>
                                 </connections>
                             </button>
@@ -1400,7 +1389,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="Stop1:" destination="vk4-QX-glC" eventType="touchUpInside" id="z3l-mp-MoX"/>
                                     <segue destination="Yav-OA-Nrh" kind="show" id="vOk-yE-PAH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcm-lf-NiS">
+                                <rect key="frame" x="20" y="131" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.0039215686269999999" blue="0.67450980390000004" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Heart Rate">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="hUk-63-7sx" kind="show" id="fdD-vG-CVK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1408,7 +1414,11 @@
                         <viewLayoutGuide key="safeArea" id="pE5-uQ-qQJ"/>
                     </view>
                     <connections>
+                        <outlet property="blood" destination="wdL-8H-37k" id="qO7-cK-N2c"/>
                         <outlet property="bloodp" destination="8Cm-E3-qA5" id="ti3-Eg-en6"/>
+                        <outlet property="res" destination="xQh-6q-s6T" id="j5F-Gz-jfc"/>
+                        <outlet property="satu" destination="umY-nw-tKR" id="SoO-FG-DN7"/>
+                        <outlet property="temp" destination="sEb-2c-4im" id="DnH-fl-9H5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4sW-In-IcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1589,6 +1599,7 @@
         <image name="pass_icon" width="45" height="137"/>
         <image name="plus" width="32" height="32"/>
         <image name="redp" width="16" height="16"/>
+        <image name="rendew" width="699" height="480"/>
         <image name="shot" width="260" height="420"/>
         <image name="warn" width="74" height="77"/>
         <image name="yellowp" width="16" height="16"/>

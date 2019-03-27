@@ -27,7 +27,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fetch()
-       timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(fetch), userInfo: nil, repeats: true)
+       timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(fetch), userInfo: nil, repeats: true)
         
         // Do any additional setup after loading the view.
     }

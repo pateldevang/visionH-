@@ -7,7 +7,7 @@
 
 import UIKit
 import Firebase
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var Pass: UITextField!
@@ -15,6 +15,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.load.isHidden = true
+        self.Email.delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -42,6 +43,13 @@ class LoginViewController: UIViewController {
     }
     
     override var prefersStatusBarHidden: Bool{
+        return true
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
         return true
     }
     /*
