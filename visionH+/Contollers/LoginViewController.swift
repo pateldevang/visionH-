@@ -22,9 +22,9 @@ class LoginViewController: UIViewController {
     @IBAction func Sign(_ sender: UIButton) {
         self.load.startAnimating()
         self.load.isHidden = false
-        let email = Email.text
+        let email = (Email.text!+"@gmail.com")
         let pass = Pass.text
-        Auth.auth().signIn(withEmail: email!, password: pass!, completion: { user, error in
+        Auth.auth().signIn(withEmail: email, password: pass!, completion: { user, error in
             
             if let firebaseError = error {
                 self.load.isHidden = true
@@ -41,6 +41,9 @@ class LoginViewController: UIViewController {
         })
     }
     
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
     /*
     // MARK: - Navigation
 

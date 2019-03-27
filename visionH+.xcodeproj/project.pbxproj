@@ -14,6 +14,11 @@
 		773161192249484200D7871F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773161172249484200D7871F /* LaunchScreen.storyboard */; };
 		773161212249487500D7871F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 773161202249487500D7871F /* GoogleService-Info.plist */; };
 		773161282249622C00D7871F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773161272249622C00D7871F /* LoginViewController.swift */; };
+		778359FE224A81D500261DFF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778359FD224A81D500261DFF /* DetailViewController.swift */; };
+		77835A00224AC51700261DFF /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778359FF224AC51700261DFF /* PopViewController.swift */; };
+		77835A02224AC59800261DFF /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77835A01224AC59800261DFF /* scrollViewController.swift */; };
+		77BD5671224AF303008CF5B0 /* LiveMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD5670224AF303008CF5B0 /* LiveMonitorViewController.swift */; };
+		77DB1F9F224A3D27003ADB36 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB1F9E224A3D27003ADB36 /* testViewController.swift */; };
 		E247AA3BF7C7628BE3628362 /* Pods_visionH_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63C94B4DF916482DF1F120A /* Pods_visionH_.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +34,11 @@
 		7731611A2249484200D7871F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		773161202249487500D7871F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		773161272249622C00D7871F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		778359FD224A81D500261DFF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		778359FF224AC51700261DFF /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		77835A01224AC59800261DFF /* scrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
+		77BD5670224AF303008CF5B0 /* LiveMonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMonitorViewController.swift; sourceTree = "<group>"; };
+		77DB1F9E224A3D27003ADB36 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = testViewController.swift; path = "/Users/devangpatel/Desktop/visionH+/visionH+/Contollers/testViewController.swift"; sourceTree = "<absolute>"; };
 		D63C94B4DF916482DF1F120A /* Pods_visionH_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_visionH_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				773161272249622C00D7871F /* LoginViewController.swift */,
+				77DB1F9E224A3D27003ADB36 /* testViewController.swift */,
+				778359FD224A81D500261DFF /* DetailViewController.swift */,
+				778359FF224AC51700261DFF /* PopViewController.swift */,
+				77BD5670224AF303008CF5B0 /* LiveMonitorViewController.swift */,
+				77835A01224AC59800261DFF /* scrollViewController.swift */,
 				7709CFD2224A0C59002DC9D7 /* sideViewController.swift */,
 				7731610E2249484000D7871F /* AppDelegate.swift */,
 			);
@@ -238,8 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77835A02224AC59800261DFF /* scrollViewController.swift in Sources */,
+				77BD5671224AF303008CF5B0 /* LiveMonitorViewController.swift in Sources */,
 				773161282249622C00D7871F /* LoginViewController.swift in Sources */,
 				7731610F2249484000D7871F /* AppDelegate.swift in Sources */,
+				77835A00224AC51700261DFF /* PopViewController.swift in Sources */,
+				778359FE224A81D500261DFF /* DetailViewController.swift in Sources */,
+				77DB1F9F224A3D27003ADB36 /* testViewController.swift in Sources */,
 				7709CFD3224A0C59002DC9D7 /* sideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

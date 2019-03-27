@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 class sideViewController: UIViewController {
 
     @IBOutlet var leadingC: NSLayoutConstraint!
@@ -23,7 +23,7 @@ class sideViewController: UIViewController {
         intial()
         // Do any additional setup after loading the view.
     }
-    
+  
     @IBAction func hamburgerBtnTapped(_ sender: Any) {
         //if the hamburger menu is NOT visible, then move the ubeView back to where it used to be
         if !hamburgerMenuIsVisible {
@@ -63,6 +63,23 @@ class sideViewController: UIViewController {
         self.ali.clipsToBounds = true
         self.ali.layer.borderWidth = 1.3
         self.ali.layer.borderColor = UIColor.black.cgColor
+    }
+    
+    @IBAction func phone(_ sender: UIButton) {
+        let url: NSURL = URL(string: "TELL:/8888888888")! as NSURL
+        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func logout(_ sender: UIButton) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+            let homeView = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController")
+            self.present(homeView!,animated: true,completion: nil)
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
     }
     
     /*
