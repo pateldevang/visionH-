@@ -1005,7 +1005,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxV-ai-rPY">
-                                                <rect key="frame" x="99" y="114" width="124" height="30"/>
+                                                <rect key="frame" x="33" y="112" width="204" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="phone:" destination="ac3-hB-GvX" eventType="touchUpInside" id="ZXc-AM-esd"/>

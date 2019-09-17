@@ -1,23 +1,21 @@
 //
-//  testViewController.swift
-//  
+//  testViewControllerViewController.swift
+//  visionH+
 //
-//  Created by Devang Patel on 26/03/19.
+//  Created by Devang Patel on 27/04/19.
+//  Copyright © 2019 Devang Patel. All rights reserved.
 //
 
 import UIKit
-import Firebase
-class testViewController: UIViewController {
-    
-    @IBOutlet weak var outi: UIImageView!
+
+class testViewControllerViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    override var prefersStatusBarHidden: Bool{
-        return true
-    }
+    
 
     /*
     // MARK: - Navigation

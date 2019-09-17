@@ -66,8 +66,9 @@ class sideViewController: UIViewController {
     }
     
     @IBAction func phone(_ sender: UIButton) {
-        let url: NSURL = URL(string: "TELL:/8888888888")! as NSURL
-        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        if let url = NSURL(string: "tel://8888888888"), UIApplication.shared.canOpenURL(url as URL) {
+            UIApplication.shared.openURL(url as URL)
+        }
     }
     
     @IBAction func logout(_ sender: UIButton) {
